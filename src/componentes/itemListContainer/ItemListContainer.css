@@ -1,0 +1,11 @@
+.ButtonContenedor{
+    display: flex;
+    align-items: center;
+}
+
+.ItemButton{
+    background-color: black;
+    color: #fab818;
+    margin: 15px auto;
+    border-color: black;
+}
