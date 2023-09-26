@@ -1,4 +1,26 @@
 .NavBar{
     background-color: #23252b!important;
     color: #fd7e14;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contNav{
+    margin: 0;
+}
+.categorias{
+    margin: auto;
+    width: 40vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.categorias li a{
+    color: #fd7e14;
+    text-decoration: none;
+
 }

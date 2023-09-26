@@ -1,0 +1,22 @@
+.inicio{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    height: 50vh;
+    background-image: url('https://assets.turismocity.com/cdn-cgi/image/format=auto,width=1400,fit=scale-down/bazar-Zoco%20de%20Marrakech.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.inicio h1{
+    font-size: 50px;
+}
+
+.productos{
+    background-color: gray;
+    text-align: center;
+}

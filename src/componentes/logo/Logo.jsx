@@ -1,12 +1,14 @@
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import './Logo.css'
+import { NavLink } from 'react-router-dom';
 
 const Logo = () => {
     return (
         <div>
+            <NavLink to='/'>
             <Container>
-                <Navbar.Brand href="#home" className='logo'>
+                <Navbar.Brand className='logo'>
                     <img
                         alt="logo bolucompra"
                         src="./src/assets/logo.png"
@@ -17,6 +19,7 @@ const Logo = () => {
                     Bolucompras
                 </Navbar.Brand>
             </Container>
+            </NavLink>
         </div>
 );
 }
