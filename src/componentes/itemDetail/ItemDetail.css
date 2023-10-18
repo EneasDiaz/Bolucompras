@@ -1,0 +1,23 @@
+.imagenDetail{
+    height: 50vh;
+    width: auto;
+}
+.cardDetailContainer{
+    background-color: gray;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.cardDetail{
+    margin-top: 10px;
+    width: 50vw;
+    height: 75vh;
+}
+.nonDetail{
+    height: 100vh;
+    background-color: gray;
+}
+.nonDetail h1{
+    text-align: center;
+}

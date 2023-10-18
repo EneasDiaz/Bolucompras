@@ -19,10 +19,13 @@ const NavBar = () => {
                     </ul>
                 </div>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <CartWidget/>
+                <NavLink to="/cart">
+                    <CartWidget/>
+                </NavLink>
             </Container>
         </Navbar>
     );
 }
 
 export default NavBar;
+

@@ -1,0 +1,23 @@
+.carro{
+    background-color: gray;
+    height: 100vh;
+}
+
+.carroConteiner{
+    padding: 10px;
+}
+
+.inputs{
+    display: flex;
+    justify-content: center;
+}
+.inputCarro{
+    margin: 5px;
+}
+.botonCompra{
+    float: right;
+}
+
+.text{
+    text-align: center;
+}
